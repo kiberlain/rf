@@ -1,0 +1,36 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+main {
+  width: min(800px, 95vw);
+  margin: 0 auto;
+}
+.list-group-item{
+  border:  none;
+  font-size: 14px;
+  padding: 0.25rem 0.5rem;
+}
+.list-group-item + .list-group-item{
+  border-top: 1px dotted rgba(0,0,0,0.1);
+}
+.list-group-item:hover {
+  background: #f8f9fa;
+}
+
+.channel-item:hover {
+  background: #f8f9fa;
+  color: black;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+}
+
+.channel-box {
+  flex-grow: 0;
+  margin-right: 1em;
+}
+
+.chat-box {
+  flex-grow: 1;
+}
